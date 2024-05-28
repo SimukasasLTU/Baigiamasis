@@ -1,5 +1,5 @@
 package lt.viko.eif.spetrauskas.model;
-
+//atspindi serviso paskyrimą (vizitą į autoservisą)
 import lombok.Data;
 
 import javax.persistence.*;

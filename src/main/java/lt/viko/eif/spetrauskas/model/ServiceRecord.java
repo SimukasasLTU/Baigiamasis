@@ -1,5 +1,5 @@
 package lt.viko.eif.spetrauskas.model;
-
+//atspindi rekorda apie vizita konkreciame autoserviise ir automobili
 import lombok.Data;
 
 import javax.persistence.*;

@@ -1,5 +1,5 @@
 package lt.viko.eif.spetrauskas.model;
-
+//automobilio informacija
 import lombok.Data;
 
 import javax.persistence.*;

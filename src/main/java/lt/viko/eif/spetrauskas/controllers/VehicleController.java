@@ -1,5 +1,5 @@
 package lt.viko.eif.spetrauskas.controllers;
-
+//REST API valdiklis, skirtas valdyti vartotojų duomenis Vehikals (sukurti, skaityti, atnaujinti, ištrinti)
 import lt.viko.eif.spetrauskas.model.Vehicle;
 import lt.viko.eif.spetrauskas.services.VehicleService;
 import org.springframework.beans.factory.annotation.Autowired;
