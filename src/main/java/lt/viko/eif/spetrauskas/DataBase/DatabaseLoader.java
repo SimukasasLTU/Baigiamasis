@@ -26,22 +26,22 @@ public class DatabaseLoader {
             serviceCenter.setPhone("123-456-7890");
             serviceCenterRepository.save(serviceCenter);
 
-            // Sukurti saugoti auto
-            Vehicle vehicle = new Vehicle();
-            vehicle.setMake("Toyota");
-            vehicle.setModel("Corolla");
-            vehicle.setYear(2020);
-            vehicle.setVin("1HGCM82633A123456");
-            vehicleRepository.save(vehicle);
-
-            // Sukurti ir issaugoti ServiceAppointment
-            ServiceAppointment appointment = new ServiceAppointment();
-            appointment.setVehicle(vehicle);
-            appointment.setServiceCenter(serviceCenter);
-            appointment.setAppointmentDate(LocalDateTime.now().plusDays(3));
-            appointment.setServiceType("Sarnytu keitimas");
-            appointment.setStatus("Scheduled");
-            appointmentRepository.save(appointment);
+//            // Sukurti saugoti auto
+//            Vehicle vehicle = new Vehicle();
+//            vehicle.setMake("Toyota");
+//            vehicle.setModel("Corolla");
+//            vehicle.setYear(2020);
+//            vehicle.setVin("1HGCM82633A123456");
+//            vehicleRepository.save(vehicle);
+//
+//            // Sukurti ir issaugoti ServiceAppointment
+//            ServiceAppointment appointment = new ServiceAppointment();
+//            appointment.setVehicle(vehicle);
+//            appointment.setServiceCenter(serviceCenter);
+//            appointment.setAppointmentDate(LocalDateTime.now().plusDays(3));
+//            appointment.setServiceType("Sarnytu keitimas");
+//            appointment.setStatus("Scheduled");
+//            appointmentRepository.save(appointment);
 
             // Sukurti ir issaugoti User
 //            User user = new User();
